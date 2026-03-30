@@ -3,6 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Les 40 ans du Gobelin Fanatique</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body{
+            background-image:url("./scroll_background.png");
+            background-color: #f4ecd8; /* fallback */
+        }
+        .title {
+            background-color: #a23f3a;
+            display: flex;
+            justify-content: space-between; /* espace entre texte et logo */
+            align-items: stretch; /* fait que le logo prend toute la hauteur */
+            padding: 0 20px; /* padding horizontal */
+            height: 120px; /* hauteur du bandeau */
+        }
+
+        .title h1 {
+            color: white;
+            margin: auto 0; /* centre verticalement le texte */
+            font-size: 2em;
+        }
+
+        .logo {
+            height: 100%; /* prend la hauteur du bandeau */
+        }
+
+        .logo img {
+            height: 100%; /* prend toute la hauteur du conteneur */
+            width: auto;   /* garde les proportions */
+        }
+    </style>
 </head>
 <body>
     <div style="margin-left: auto;margin-right: auto;max-width: 70em;">
@@ -10,10 +42,14 @@
         <a href="code_of_conduct.html">Charte de conduite</a>
     </div>
     <div style="margin-left: auto;margin-right: auto;max-width: 70em;">
+        <div class="title">
+            <h1 id="les-40-ans-du-gobelin-fanatique">Les 40 ans du Gobelin Fanatique</h1>
+            <div class="logo">
+                <img src="./logo_color.png" alt="Logo du gobelin fanatique">
+            </div>
+        </div>
 
-        <h1 id="les-40-ans-du-gobelin-fanatique">Les 40 ans du Gobelin Fanatique</h1>
-
-        <p>Venez fetez notre anniversaire et plonger dans l’univers fascinant des JEUX DE RÔLE !</p>
+        <p>Venez fêter notre anniversaire et plonger dans l’univers fascinant des JEUX DE RÔLE !</p>
 
         <h2 id="découverte-du-jeu-de-rôle">Découverte du jeu de rôle</h2>
 
@@ -21,7 +57,7 @@
             accessibles à toutes et tous, que vous soyez totalement novice ou simplement curieux. Guidé·e par des
             meneur·euses passionné·es, vous découvrirez le plaisir d’incarner un personnage, de faire des choix…
             Et de voir une histoire naître autour de la table. Cette journée est l’occasion parfaite pour explorer de
-            nouvelles dimensions d’aventure. Nous organiserons 6 tables de 4 joueur.euses chacune, permettant à chacun
+            nouvelles dimensions d’aventure. Nous organiserons 6 tables de 4 joueurs.euses chacune, permettant à chacun
             de vivre une expérience immersive et conviviale.</p>
 
         <h3 id="session-de-14h">Samedi 16/05 - Session de 14h - 16h30</h3>
